@@ -1,3 +1,4 @@
+# Typescript-tut-learn
 This repository is designed to help you get started with TypeScript from scratch. Whether you're new to programming or coming from JavaScript, you'll find everything you need to understand and use TypeScript effectively.
 
 Features:
