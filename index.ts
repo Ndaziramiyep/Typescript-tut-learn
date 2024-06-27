@@ -50,3 +50,14 @@ class Dog extends Animal {
 const dog = new Dog('Rex');
 dog.bark();
 dog.move(10);
+
+//Modules ==============================================================
+// math.ts
+export function add(x: number, y: number): number {
+    return x + y;
+}
+
+// app.ts
+import { add } from './math';
+
+console.log(add(2, 3)); // Output: 5
