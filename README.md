@@ -8,3 +8,12 @@ Hands-on examples and exercises
 Step-by-step tutorials
 Common pitfalls and best practices
 Links to additional resources and documentation
+
+===================================================
+
+Using import (ES6 syntax)
+This is the most common and modern way to import modules in TypeScript.
+
+1. Named imports:
+
+import { functionName, variableName } from 'module-name';
