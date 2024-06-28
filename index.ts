@@ -53,9 +53,6 @@ dog.move(10);
 
 //Modules ==============================================================
 // math.ts
-export function add(x: number, y: number): number {
-    return x + y;
-}
 
 // app.ts
 import { add } from './math';
