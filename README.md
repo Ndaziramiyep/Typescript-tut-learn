@@ -17,3 +17,20 @@ This is the most common and modern way to import modules in TypeScript.
 1. Named imports:
 
 import { functionName, variableName } from 'module-name';
+
+2. Default import:
+
+import defaultExport from 'module-name';
+
+3. Import everything as an object:
+
+import * as moduleName from 'module-name';
+
+4. Import a module for side effects only:
+
+import 'module-name';
+
+# Examples:
+1. Named imports:
+import { readFile, writeFile } from 'fs';
+
