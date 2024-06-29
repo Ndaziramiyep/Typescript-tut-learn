@@ -1,6 +1,6 @@
 // src/todo.ts
 
-import { Todo } from './types';
+import { Todo } from './styles';
 
 export class TodoList {
   private todos: Todo[] = [];
