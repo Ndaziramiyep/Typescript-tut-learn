@@ -10,7 +10,7 @@ class ToDoList {
     private taskList: HTMLUListElement;
 
     constructor() {
-        this.taskInput = document.getElementById('taskInput') as HTMLInputElement;
+        this.taskInput = <HTMLInputElement>document.getElementById('taskInput');
         this.addTaskButton = document.getElementById('addTaskButton') as HTMLButtonElement;
         this.taskList = document.getElementById('taskList') as HTMLUListElement;
 
@@ -28,6 +28,7 @@ class ToDoList {
         };
 
         this.tasks.push(newTask);
+        console.log(this.tasks)
         this.taskInput.value = '';
         this.renderTasks();
     }
