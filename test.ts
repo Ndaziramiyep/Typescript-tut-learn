@@ -15,12 +15,12 @@ class Student{
           this.name=name;
           this.subject_name=subname;
           this.subject_code=subcode;
-          id = Date.now();
-          name = "Patrick";
-          subname ="Mathematics"
-          subcode = 1234;
+        //   id = Date.now();
+        //   name = "Patrick";
+        //   subname ="Mathematics"
+        //   subcode = 1234;
           console.error(name+id+subname+subcode);
     }
 }
 
-new Student()
+new Student(Date.now(),"Patrick","Mathematics",1234);
