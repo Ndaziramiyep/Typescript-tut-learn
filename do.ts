@@ -17,5 +17,11 @@ class Action_list{
          this.button_element.addEventListener("click", this.addTask);
       }
   
-       
+       addTask() : void {
+          const record = this.new_record.value.trim();
+          if(record === " ") return;
+          const listElement = document.createElement("li");
+          listElement.textContent = this.new_record.value;
+          this.list_display.appendChild(listElement)
+      }
   }
