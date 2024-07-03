@@ -13,7 +13,7 @@ var ToDoList = /** @class */ (function () {
         if (taskText === '')
             return;
         var newTask = {
-            id: Date.now() * 5,
+            id: Date.now(),
             text: taskText
         };
         this.tasks.push(newTask);

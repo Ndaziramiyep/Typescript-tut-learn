@@ -34,7 +34,7 @@ class ToDoList {
     }
 
     private removeTask(taskId: number): void {
-        this.tasks = this.tasks.splice(taskId,1);
+        this.tasks = this.tasks.filter(task => task.id !== taskId);
         this.renderTasks();
     }
 
