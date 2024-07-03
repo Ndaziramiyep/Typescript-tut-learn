@@ -18,10 +18,15 @@ class Action_list{
       }
   
        addTask() : void {
+          const v =  this.new_record.value
           const record = this.new_record.value.trim();
           if(record === " ") return;
           const listElement = document.createElement("li");
+
           listElement.textContent = this.new_record.value;
-          this.list_display.appendChild(listElement)
+          console.log(v)
+          this.list_display.appendChild(listElement);
       }
   }
+
+  new Action_list();
