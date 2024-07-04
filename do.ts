@@ -18,13 +18,13 @@ class Action_list{
       }
   
        addTask() : void {
-          const v =  this.new_record.value
+          const inputValue =  this.new_record.value
           const record = this.new_record.value.trim();
           if(record === " ") return;
           const listElement = document.createElement("li");
 
-          listElement.textContent = this.new_record.value;
-          console.log(v)
+          listElement.textContent =inputValue ;
+          console.log(inputValue)
           this.list_display.appendChild(listElement);
       }
   }
