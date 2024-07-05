@@ -20,7 +20,7 @@ class Action_list{
        addTask() : void {
           const inputValue =  this.new_record.value
           const record = this.new_record.value.trim();
-          if(record === " ") return;
+          if(record === ' ') return;
           const listElement = document.createElement("li");
 
           listElement.textContent =inputValue ;
