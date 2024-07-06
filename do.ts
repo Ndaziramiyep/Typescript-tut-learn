@@ -24,7 +24,8 @@ class Action_list{
           const listElement = document.createElement("li");
 
           listElement.textContent =inputValue ;
-          console.log(inputValue)
+          console.log(inputValue);
+          console.log("Successfully run")
           this.list_display.appendChild(listElement);
       }
   }
